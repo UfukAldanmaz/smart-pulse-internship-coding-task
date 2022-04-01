@@ -1,0 +1,1 @@
+# smart-pulse-internship-coding-task
