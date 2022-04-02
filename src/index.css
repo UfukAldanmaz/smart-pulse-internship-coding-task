@@ -17,3 +17,11 @@ th {
 tr:nth-child(even) {
   background-color: #ADD8E6;
 }
+
+
+.aloading {
+  margin: auto;
+  width: 6%;
+  border: 7px solid #FFFF00;
+  padding: 5px;
+}

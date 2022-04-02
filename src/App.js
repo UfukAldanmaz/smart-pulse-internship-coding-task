@@ -1,6 +1,7 @@
 import { fetchData } from './services/api';
 import { useEffect, useState } from 'react';
 import TradeHistoryList from './TradeHistoryList';
+import aloading from './assets/aloading.gif';
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
 
   return (
     <div>
-      {loading && <div>Loading...</div>}
+      {loading && <div className='aloading'>Loading <br /><img src={aloading} alt='loading' /></div>}
       {!loading && <TradeHistoryList data={data} />}
     </div>
   );
