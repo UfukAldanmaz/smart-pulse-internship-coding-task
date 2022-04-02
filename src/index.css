@@ -7,10 +7,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.info {
+td,
+th {
+  border: 1px solid #dddddd;
   text-align: right;
+  padding: 4px;
 }
 
-.info td {
-  padding: 3px;
+tr:nth-child(even) {
+  background-color: #ADD8E6;
 }
