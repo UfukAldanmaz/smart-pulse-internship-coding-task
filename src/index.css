@@ -26,3 +26,11 @@ tr:nth-child(even) {
   border: 7px solid #FFFF00;
   padding: 2px;
 }
+
+.error {
+  text-align: center;
+  margin: auto;
+  width: 30%;
+  border: 5px solid #de0909;
+  padding: 10px;
+}

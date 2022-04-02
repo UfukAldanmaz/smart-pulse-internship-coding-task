@@ -7,6 +7,7 @@ import aloading from './assets/aloading.gif';
 function App() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [hasError, setHasError] = useState(false);
 
   useEffect(() => {
     setLoading(true)
@@ -16,17 +17,16 @@ function App() {
       .then((response) => {
         setData(response.data)
       }).catch((error) => {
-        //todo show notification
+        setHasError(true)
       }).finally(() => setLoading(false))
   }, [])
 
-
-
   return (
     <div>
+      {hasError && !loading && <div className='error'><strong>An Error Occured!</strong></div>}
       {loading && <div className='aloading'><strong>Loading</strong><br />
         <img src={aloading} alt='loading' /></div>}
-      {!loading && <TradeHistoryList data={data} />}
+      {!loading && !hasError && <TradeHistoryList data={data} />}
     </div>
   );
 }
