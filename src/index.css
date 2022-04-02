@@ -20,6 +20,7 @@ tr:nth-child(even) {
 
 
 .aloading {
+  text-align: center;
   margin: auto;
   width: 5%;
   border: 7px solid #FFFF00;
