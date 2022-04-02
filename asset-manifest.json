@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/smart-pulse-internship-coding-task/static/css/main.fd066427.css",
+    "main.js": "/smart-pulse-internship-coding-task/static/js/main.b3b55129.js",
+    "static/js/787.d836576f.chunk.js": "/smart-pulse-internship-coding-task/static/js/787.d836576f.chunk.js",
+    "index.html": "/smart-pulse-internship-coding-task/index.html",
+    "main.fd066427.css.map": "/smart-pulse-internship-coding-task/static/css/main.fd066427.css.map",
+    "main.b3b55129.js.map": "/smart-pulse-internship-coding-task/static/js/main.b3b55129.js.map",
+    "787.d836576f.chunk.js.map": "/smart-pulse-internship-coding-task/static/js/787.d836576f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd066427.css",
+    "static/js/main.b3b55129.js"
+  ]
+}
