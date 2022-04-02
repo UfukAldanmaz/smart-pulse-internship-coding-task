@@ -7,7 +7,7 @@ function TradeHistoryList(props) {
             <tr key={index} className="info">
                 <td>{dateFormat(info.dateTime, "dd.mm.yyyy HH:MM")}</td>
                 <td>{info.totalTransactionAmount.toLocaleString('en-US', { maximumFractionDigits: 2 })}</td>
-                <td>{info.totalTransactionVolume.toLocaleString('en-US', { maximumFractionDigits: 2 })}</td>
+                <td>₺ {info.totalTransactionVolume.toLocaleString('en-US', { maximumFractionDigits: 2 })}</td>
                 <td>{info.weightedAveragePrice.toLocaleString('en-US', { maximumFractionDigits: 2 })}</td>
             </tr>
         )
