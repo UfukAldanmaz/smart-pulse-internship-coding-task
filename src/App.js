@@ -24,7 +24,8 @@ function App() {
 
   return (
     <div>
-      {loading && <div className='aloading'>Loading <br /><img src={aloading} alt='loading' /></div>}
+      {loading && <div className='aloading'><strong>Loading</strong><br />
+        <img src={aloading} alt='loading' /></div>}
       {!loading && <TradeHistoryList data={data} />}
     </div>
   );
