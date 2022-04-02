@@ -21,7 +21,7 @@ tr:nth-child(even) {
 
 .aloading {
   margin: auto;
-  width: 6%;
+  width: 5%;
   border: 7px solid #FFFF00;
-  padding: 5px;
+  padding: 2px;
 }
