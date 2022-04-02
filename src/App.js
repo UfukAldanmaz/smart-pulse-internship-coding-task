@@ -2,6 +2,7 @@ import { fetchData } from './services/api';
 import { useEffect, useState } from 'react';
 import TradeHistoryList from './TradeHistoryList';
 
+
 function App() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -22,6 +23,7 @@ function App() {
 
   return (
     <div>
+      {loading && <div>Loading...</div>}
       {!loading && <TradeHistoryList data={data} />}
     </div>
   );
